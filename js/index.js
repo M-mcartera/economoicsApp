@@ -7,4 +7,10 @@ $(document).ready(function(){
 			$('#genderlbl').html("Female");
 		}
 	});
+
+	//values
+	$('#formReg').submit(function(e){
+		e.preventDefault();
+		console.log($(this).valid());
+	});
 });

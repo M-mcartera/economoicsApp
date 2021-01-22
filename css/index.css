@@ -75,6 +75,12 @@ main{
 	border-radius: 30px;
 	background-color: #25D8D9;
 }
+.regForm input[name="username"]{
+	text-transform: capitalize;
+}
+#lblUser{
+	text-transform: capitalize;
+}
 .regForm input:valid{
 	background-color: #fff;
 }
@@ -85,6 +91,9 @@ main{
 	border-radius: 30px;
 	color: #043E5F;
 	cursor: pointer;
+	border: none;
+	outline: none;
+	width: 100%;
 }
 .regForm input:focus{
 	background-color: white;

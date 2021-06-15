@@ -11,6 +11,9 @@ main{
 	align-items: center;
 	justify-content: center;
 }
+legend{
+	font-size: 10px;
+}
 #glass{
 	background: white;
 	min-height: 80vh;

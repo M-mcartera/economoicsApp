@@ -23,6 +23,7 @@
 					<p>Gender: <label id="genderlbl"></label></p>
 				</div>
 				<div class="logIn">Log In</div>
+				<legend>Already have an account?</legend>
 			</div>
 			<div class="regBar">
 				<div class="welcomeTxt"><h3>My Economics App</h3></div>
